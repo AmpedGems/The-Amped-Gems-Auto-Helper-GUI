@@ -1,8 +1,13 @@
 # The-Amped-Gems-Auto-Helper-GUI
 The Amped Gems Auto Helper GUI
 
-Version 1.0
+here is my discord for more info till i relase it 
+https://discord.gg/mMA8UKnUNV
 
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/4vq5Mmz"  ><a href="//imgur.com/a/4vq5Mmz">https://github.com/AmpedGems/Auto_ModMenu_Updator_Tool</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+Version 1.0
 
 Added:
 - A cool Title Text with animation at the top of the App
