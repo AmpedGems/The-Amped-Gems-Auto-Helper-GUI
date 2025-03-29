@@ -6,6 +6,26 @@ https://discord.gg/mMA8UKnUNV
 
 https://imgur.com/a/4vq5Mmz
 
+Version 1.1
+added: 
+check 1- proces game where it does the following:
+> it process the game file by doing this:
+ * closes any apktool gui version that is open 
+ * open new clean apktool gui 
+ * get apk pacakge name 
+ * get apk main launch activity name 
+ * get apk Version 
+ * if the file is anything other than apk , it will merge it 
+ * decompiles apk 
+ * you can choose to Prefer 64 or 32  | if the game has 32 bit only and you prefer 64 it is ok , it will not result into error.
+
+Removed: 
+ * extension file creator | found a better way for it 
+ 
+
+==--====--====--====--====--====--====--====--====--==
+
+
 Version 1.0
 
 Added:
