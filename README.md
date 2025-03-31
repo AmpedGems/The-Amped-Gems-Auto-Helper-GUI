@@ -6,6 +6,28 @@ https://discord.gg/mMA8UKnUNV
 
 https://imgur.com/a/4vq5Mmz
 
+==--====--====--====--====--====--====--====--====--==
+
+Version 1.2
+added: 
+check 2- dump the game into Dnspy where it does the following:
+> it process the game files by doing this:
+ * closes any open il2cpp dumper 
+ * open the il2cpp dumper 
+ * get il2cpp, and meta data to dump 
+ * dump the game 
+ * remove non-needed files 
+ * close any dnspy open 
+ * open dnspy
+ * close the open files inside dnspy 
+ * open the new dll files 
+
+edit to 1- proces game 
+> added :
+ * closes any apktool gui version that is open | since its job is done in the end.
+
+==--====--====--====--====--====--====--====--====--==
+
 Version 1.1
 added: 
 check 1- proces game where it does the following:
