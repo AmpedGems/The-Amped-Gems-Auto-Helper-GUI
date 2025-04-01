@@ -8,6 +8,32 @@ https://imgur.com/a/4vq5Mmz
 
 ==--====--====--====--====--====--====--====--====--==
 
+
+Version 1.3
+added: 
+check 3-  where it does the following:
+> it process the game files by doing this:
+ * generate codes from the cpp file into methods.c file where it converts any method / field into a menu c++ code where it:
+    -- Patch any offset / method 
+	-- hook any method [int, bool, long, void, double, float...]
+	-- call any method using update 
+	-- update / change void methods without using update 
+	-- hook any field 
+ * opens the methods.c file upon compeletion - make sure to make default opening app for .c files is notepad++ . it will be better.
+ * the code is really good, also it will be better, i will be working on that once some major thing in the tools are done. 
+
+
+Edit to 1- proces game 
+> added :
+ * added a template to the cpp file 
+Edit to 2- dump game 
+> added :
+  * opening the cpp file after everything is done  -to manually add your methods from dnspy-
+
+
+
+==--====--====--====--====--====--====--====--====--==
+
 Version 1.2
 added: 
 check 2- dump the game into Dnspy where it does the following:
