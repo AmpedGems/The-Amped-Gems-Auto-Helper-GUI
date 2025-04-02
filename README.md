@@ -8,6 +8,25 @@ https://imgur.com/a/4vq5Mmz
 
 ==--====--====--====--====--====--====--====--====--==
 
+Version 1.4
+added: inject empty menu 
+check 4-inject empty menu  where it does the following:
+ * Builds an empty Menu For the First Time and injecting it to the game 
+     -- uses template of LGL 3.2 | C:\_AmpedGems\AmpedGemsGUI\template
+	 -- uses the second method in implementation not first 
+	 PS i can add the first one, it would be better in direct methods, and less messing around with android manifest 
+ * it copies original main.cpp into the template folder 
+ * it edits the main activity java with the .bitch file created earlier 
+ * it assembles a debug menu 
+ * moves app-debug to the workspace directory 
+ * decompiles app debug 
+ * copies lib folder [any lib name allowed]
+ * copies smali folder [auto count the smali files and add a new one with the lgl smali]
+ * Edits android manifest xml file to handle the menu 
+ * once all is done, recompiles apk of the game 
+
+==--====--====--====--====--====--====--====--====--==
+
 
 Version 1.3
 added: 
