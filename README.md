@@ -8,6 +8,27 @@ https://imgur.com/a/4vq5Mmz
 
 ==--====--====--====--====--====--====--====--====--==
 
+Version 1.5
+added: 
+check 5-update current offsets where it does the following:
+ * the file methods.c has methods names and signatures in dump.cs file, so it takes these and seaches in the dump.cs and updates the offsets 
+ * if something is wrong it will tell you , to fix it manually so when you make auto mod it does not fail 
+ * Nested Classes do not get updated | but i have a fail safe in place for it to catch it , so you can manually either remove it or update it manually
+
+
+added:
+a stop button :
+ * incase you wanted to stop in the middle of a process , but be careful when you re click run, it will coninue like it was first clicked, all checked processes will start from begining 
+
+edited 4 
+ * added a fail-safe for check box 4 , cause it is senstive to the files, i did not want you do a mistake and reboot your whole operation 
+ * it gets deleted when you select a new game , so it can be run once per game , even if the whole PC got restarted .
+edited select game
+ * it shows the file name normally like "game.apk" in the game name area then when you run "1- process game... " , it  gets the real game name 
+ * edited Run button , now it disables itself till the script is done running, to prevent acciedental clicks. preventing errors of that type
+ 
+==--====--====--====--====--====--====--====--====--==
+
 Version 1.4
 added: inject empty menu 
 check 4-inject empty menu  where it does the following:
