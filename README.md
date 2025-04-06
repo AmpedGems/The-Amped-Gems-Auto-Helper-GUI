@@ -8,6 +8,25 @@ https://imgur.com/a/4vq5Mmz
 
 ==--====--====--====--====--====--====--====--====--==
 
+Version 1.6
+added: 6- inject full menu
+check 6- inject full menu  where it does the following:
+ * it will inject full menu into the one that was already injected with empty menu 
+   ** builds a menu from the methods.c file 
+   ** get the app debug and decompiles it 
+   ** inject the app debug files into the game files 
+   ** recompiles the game folder 
+   ** changes the name of the game to its own name , and version , and adds signed, to know the mod  -later will add unsigned option for you-
+   example : Erythros_v24.02.25_signed.apk
+   
+edited 3,4,5 to be in a better order 
+ * 3 now is inject empty menu 
+ * 4 update offsets 
+ * 5 generate cpp code 
+ * edited the fail safe now to be 3 not 4 
+
+==--====--====--====--====--====--====--====--====--==
+
 Version 1.5
 added: 
 check 5-update current offsets where it does the following:
