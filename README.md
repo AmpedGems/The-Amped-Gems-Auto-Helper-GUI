@@ -8,6 +8,13 @@ https://imgur.com/a/4vq5Mmz
 
 ==--====--====--====--====--====--====--====--====--==
 
+Version 1.7
+added: 7- Back up the database file of the codes  
+check 7-  Back Up Database  where it does the following:
+ * the database file of packagename.cpp will be added to the database folder , if the old file existed it overrites 
+
+==--====--====--====--====--====--====--====--====--==
+
 Version 1.6
 added: 6- inject full menu
 check 6- inject full menu  where it does the following:
