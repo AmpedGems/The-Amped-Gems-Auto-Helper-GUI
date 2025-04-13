@@ -6,6 +6,36 @@ https://discord.gg/mMA8UKnUNV
 
 https://imgur.com/a/4vq5Mmz
 
+
+==--====--====--====--====--====--====--====--====--==
+
+Changelog - Version 1.7.1
+This update focuses on improving the stability, reliability, and feedback mechanisms of the tool.
+
+Improvements:
+
+Centralized Logging: All operational messages, status updates, warnings, and errors are now consistently displayed within the main log window (the text box). Pop-up messages have been removed for a more streamlined experience.
+
+Enhanced Stability: Improved error handling throughout the process. The tool is now more resilient to unexpected issues during script execution and file operations.
+
+More Responsive Cancellation: The 'Stop' button is now more effective at halting operations, including during the later stages like folder cleanup.
+
+Clearer File Status: The labels indicating Package Name, Activity, and Version will now more accurately display "Not Found" or "Error" if the corresponding files cannot be located or accessed properly.
+
+Game File Selection Reliability: Made the process of selecting a game file and preparing the workspace more robust, reducing potential errors during setup and cleanup.
+
+Improved 'Enter' Command: Increased the stability when sending the 'Enter' command to scripts that require manual input confirmation.
+
+Fixes:
+
+Sequential Execution: Fixed an issue where subsequent scripts might run even if a preceding script failed. The execution sequence will now reliably stop immediately upon encountering the first script failure.
+
+File Identification: Improved the reliability of identifying necessary project files within the workspace.
+
+This version aims to provide a smoother and more predictable user experience.
+more improvements to come , to the existing things 
+then full new things to be added to the tool 
+
 ==--====--====--====--====--====--====--====--====--==
 
 Version 1.7
