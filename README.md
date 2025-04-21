@@ -7,6 +7,66 @@ https://discord.gg/mMA8UKnUNV
 https://imgur.com/a/4vq5Mmz
 
 ==--====--====--====--====--====--====--====--====--==
+
+==--====--====--====--====--====--====--====--====--==
+Changelog - Version 1.7.5 :
+Regarding checkbox 5 "Generating C++ Codes from methods names"
+Improved Reliability (Name Conflicts): Fixed potential errors where the script could accidentally generate duplicate C++ function or variable names if the input .cpp file had similar entries. The new version automatically ensures all generated names are unique, preventing downstream compilation issues.
+
+More Robust Complex Hook Generation: Enhanced the way the script handles related code blocks, particularly for the "hook field" and "call method with update" sections in the input file. This leads to 1 shared non repeated structure of the same method when used to update both fields and call methods.
+
+Internal Improvements:
+rewrote the whole script logic, the old one was 500 lines , the new one is 1000 lines of codes, everything fixed , tested, and improved.
+fixed the whole unknown parameter thing
+[you can call a method that is like this ]
+public void something(int value , SOMETHING value2)
+and change the value or value 2 or both , or even keep the value 2 as is hooked from the game itself, like
+public void Damage(int value, Weapon weapon , Type type)
+you can hook this method with no errors at all now, you can change the value of the damage, you can keep the weapon, [no need to even create an enum for it] it will deal with all weapons from the game's enum itself , and you can if you want to change the type and return it anything you want. all working now fine and tested on multiple games with multiple scenarios
+
+
+==--====--====--====--====--====--====--====--====--==
+Changelog - Version 1.7.4 :
+Regarding  checkbox 3 "injecting empty menu"
+
+Improvements:
+
+Enhanced Stability & Error Reporting:
+Improved handling of file operations (copying, reading, writing). The script is now less likely to crash unexpectedly due to missing files or permission problems and will provide clearer error messages if these issues occur.
+The main workflow now tracks success/failure more reliably at each major stage (build, decompile, modify, recompile). If a step fails, the script will stop and report the error clearly, rather than potentially continuing with incomplete results.
+Ensured the script exits with a clear failure status if any critical step encounters an error.
+Improved Responsiveness:
+Optimized how the script handles waiting periods and file access, preventing potential freezes or unresponsiveness during these operations, especially when interacting with external tools like the APKTool GUI.
+
+
+==--====--====--====--====--====--====--====--====--==
+
+update 1.7.3
+Changelog: for checkbox 2 "dump the game into dnspy"
+
+Enhanced Stability & Reliability:
+
+Improved the logic for waiting for GUI elements (like main windows and specific controls) in both Il2CppDumper and dnSpy, making interactions less prone to timing issues.
+
+Made the "Close All" action in dnSpy more robust; it will now attempt the action but continue smoothly even if the option isn't available (e.g., no files are open).
+
+Strengthened the cleanup routine to more reliably terminate the Il2CppDumper application upon completion or error.
+
+Improved Feedback & Error Handling:
+
+Significantly increased status logging, providing clearer step-by-step feedback on the automation progress.
+
+Implemented more specific error detection and reporting, making it easier to diagnose failures if they occur.
+
+Internal Improvements:
+
+Refined how background operations are handled for potentially smoother performance, especially when running alongside other tasks.
+
+Optimized the method for finding required game files (libil2cpp.so and metadata.dat).
+
+Essentially, while the core steps remain the same, the new version focuses heavily on stability, better feedback, and more reliable error handling based on the challenges encountered during development and testing.
+
+==--====--====--====--====--====--====--====--====--==
 Changelog - Version 1.7.2
 for the checkbox 1  "process game file"
 Improvements & Fixes:
