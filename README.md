@@ -7,7 +7,9 @@ https://discord.gg/mMA8UKnUNV
 https://imgur.com/a/4vq5Mmz
 
 ==--====--====--====--====--====--====--====--====--==
-
+Released 1.7.5.1, 1.7.5.2 , 1.7.5.3 today at 11-may-2025
+==--====--====--====--====--====--====--====--====--==
+from now on, this will be just for moreinfo, the changelog will be in the releases section 
 ==--====--====--====--====--====--====--====--====--==
 Changelog - Version 1.7.5 :
 Regarding checkbox 5 "Generating C++ Codes from methods names"
