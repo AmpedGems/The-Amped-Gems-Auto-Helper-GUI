@@ -6,6 +6,8 @@ https://discord.gg/mMA8UKnUNV
 
 https://imgur.com/a/4vq5Mmz
 
+Released at 15-05-2025   version 1.7.5.5
+
 Released at 14-05-2025   version 1.7.5.4
 ==--====--====--====--====--====--====--====--====--==
 
