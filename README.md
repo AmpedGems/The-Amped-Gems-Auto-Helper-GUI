@@ -1,7 +1,7 @@
 # The-Amped-Gems-Auto-Helper-GUI
 The Amped Gems Auto Helper GUI
 
-Join here to get the tool . 
+# Join here to get the tool . 
 https://discord.gg/mMA8UKnUNV
 
 https://imgur.com/a/4vq5Mmz
