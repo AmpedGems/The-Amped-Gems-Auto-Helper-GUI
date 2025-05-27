@@ -6,6 +6,9 @@ https://discord.gg/mMA8UKnUNV
 
 https://imgur.com/a/4vq5Mmz
 
+
+Released at 27-05-2025   version 2.0.1 Beta
+
 Released at 26-05-2025   version 2.0-Beta
 
 Released at 15-05-2025   version 1.7.5.5
