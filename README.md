@@ -4,8 +4,6 @@ The Amped Gems Auto Helper GUI
 # Join here to get the tool . 
 https://discord.gg/mMA8UKnUNV
 
-https://imgur.com/a/4vq5Mmz
-
 
 Released at 27-05-2025   version 2.0.1 Beta
 
