@@ -1,4 +1,9 @@
 # The-Amped-Gems-Auto-Helper-GUI
+
+# The Paradox of Effort: You have to put in more effort to make something appear effortless. Effortless, elegant performances are often just the result of a large volume of effortful, gritty practice. Small things become big things. Simple is not simple.
+Sahil Bloom
+
+
 The Amped Gems Auto Helper GUI
 
 # Join here to get the tool . 
